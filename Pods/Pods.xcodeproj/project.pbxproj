@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DC49957122C0E014186E7D32162083E /* Pods-ClearNoteSwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C55381856DA9CEA30FEDDA677E0CAE /* Pods-ClearNoteSwiftTests-dummy.m */; };
+		395D258154C4D358C5B01906FBE76AA4 /* Pods-ClearNoteSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6E735E4FAFFB0DB6574A5898A1B8DE /* Pods-ClearNoteSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6569A600DF658C3AD304BCF7270A3B03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		76DFC650B45CA89AC60A866C2896A40E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7A56BA37C79E52861BFF85050BE575B9 /* Pods-ClearNoteSwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7221E16B370E99112F59C33E1E74969 /* Pods-ClearNoteSwiftUITests-dummy.m */; };
+		AAB94AE20E62E8BF8D03A9A056BC609B /* Pods-ClearNoteSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EB6B3FC904130D12BC891D1D9DC910 /* Pods-ClearNoteSwift-dummy.m */; };
+		B3EA0D156E965D63D74AA2A2EB6A974A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		CF527C1B0BF33864E41252D9A7AE8B74 /* Pods-ClearNoteSwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9378BE950B25E49DB5EF6DFDEA1EC01C /* Pods-ClearNoteSwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2528A3E776E5DAFC7CE59286E58A13A /* Pods-ClearNoteSwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DD1447DC6C9755285B950EB02DEAA8 /* Pods-ClearNoteSwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12C31289B9C01FC65706529F9D83FCEE /* Pods_ClearNoteSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearNoteSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFDBD215191C1E59BF0C731CD435C00 /* Pods-ClearNoteSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClearNoteSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33FC005A35D5CB583B1F85DFD0EB5610 /* Pods-ClearNoteSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClearNoteSwift-frameworks.sh"; sourceTree = "<group>"; };
+		4306AC87E9CA439F9BF087E8A121DE7D /* Pods-ClearNoteSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClearNoteSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		45EB184BF47585559B9011F677150A96 /* Pods-ClearNoteSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClearNoteSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47C1E81D2E25DFD7137CD5930830C946 /* Pods-ClearNoteSwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ClearNoteSwiftUITests.modulemap"; sourceTree = "<group>"; };
+		57CD2082A1F5572F2C09FC29D4689D78 /* Pods-ClearNoteSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ClearNoteSwift.modulemap"; sourceTree = "<group>"; };
+		57DD1447DC6C9755285B950EB02DEAA8 /* Pods-ClearNoteSwiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClearNoteSwiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		6785FD5AD461C50AEBC7E1DA818E844C /* Pods-ClearNoteSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClearNoteSwift.release.xcconfig"; sourceTree = "<group>"; };
+		68C55381856DA9CEA30FEDDA677E0CAE /* Pods-ClearNoteSwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClearNoteSwiftTests-dummy.m"; sourceTree = "<group>"; };
+		68EB6B3FC904130D12BC891D1D9DC910 /* Pods-ClearNoteSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClearNoteSwift-dummy.m"; sourceTree = "<group>"; };
+		73D2EAC86AD2C47F842B7D0F42D1F84E /* Pods-ClearNoteSwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClearNoteSwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79CEBCEE6FFA488F1667B6AF0797F373 /* Pods-ClearNoteSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClearNoteSwift-resources.sh"; sourceTree = "<group>"; };
+		7C6F77F9668075F41E3AB7A604100FB8 /* Pods-ClearNoteSwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ClearNoteSwiftTests.modulemap"; sourceTree = "<group>"; };
+		9378BE950B25E49DB5EF6DFDEA1EC01C /* Pods-ClearNoteSwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClearNoteSwiftTests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9599BF5E252522E53733FD54ACB3D100 /* Pods-ClearNoteSwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClearNoteSwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		970B8D7DB907D5B4A8C5B83E8540750A /* Pods-ClearNoteSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClearNoteSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9927F23DA7801888E98DC700F52BEBF9 /* Pods-ClearNoteSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClearNoteSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		99CB436B228FFC3B1712BB250FEA0AEE /* Pods_ClearNoteSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearNoteSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC06E7B7EF4862D07DF3F3B5291DBA4 /* Pods-ClearNoteSwiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClearNoteSwiftTests-resources.sh"; sourceTree = "<group>"; };
+		9E6E735E4FAFFB0DB6574A5898A1B8DE /* Pods-ClearNoteSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClearNoteSwift-umbrella.h"; sourceTree = "<group>"; };
+		A7221E16B370E99112F59C33E1E74969 /* Pods-ClearNoteSwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClearNoteSwiftUITests-dummy.m"; sourceTree = "<group>"; };
+		A8E3CB53C3996B32AE2181E9AAF4FB30 /* Pods-ClearNoteSwiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClearNoteSwiftTests-frameworks.sh"; sourceTree = "<group>"; };
+		B160BD75911C27311D2D2467B3EDD8CA /* Pods-ClearNoteSwiftUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClearNoteSwiftUITests-resources.sh"; sourceTree = "<group>"; };
+		BC77864BFD739690CB34A7735E1AE9A3 /* Pods-ClearNoteSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClearNoteSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		BE7A07ADBCC4A0C0780E02E2B8256310 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB231C59860611148C3D65AAEEA60AC /* Pods-ClearNoteSwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClearNoteSwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D21FEF0DEC1D9D62B534DC2A9F9E8BC1 /* Pods-ClearNoteSwiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClearNoteSwiftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D66DEC023C92B247FD16F23A768BA78A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBDDA93706322D40B61C619993D204CB /* Pods_ClearNoteSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearNoteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7CD3720674871F6AF8B3BDC277B2D4D /* Pods-ClearNoteSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClearNoteSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC53FD0ED933EC21925A48A5C107BE78 /* Pods-ClearNoteSwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClearNoteSwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED4EAE97B5BD07296A926FA125AC23C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78CCBC6C4C9D0F279477E01386A52E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DFC650B45CA89AC60A866C2896A40E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF7F6092DB4896BF96D705F1B992F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA0D156E965D63D74AA2A2EB6A974A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A9AC274C76A1C8779E8010E4FEA558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6569A600DF658C3AD304BCF7270A3B03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6AB0D79413F02230D9889A10FCC40211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBDDA93706322D40B61C619993D204CB /* Pods_ClearNoteSwift.framework */,
+				99CB436B228FFC3B1712BB250FEA0AEE /* Pods_ClearNoteSwiftTests.framework */,
+				12C31289B9C01FC65706529F9D83FCEE /* Pods_ClearNoteSwiftUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6AB0D79413F02230D9889A10FCC40211 /* Products */,
+				C03A49AC357ABBCE7B554D447EEEFF67 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D596C775729B2774BEDBEE4F2DE81E /* Pods-ClearNoteSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4EAE97B5BD07296A926FA125AC23C3 /* Info.plist */,
+				47C1E81D2E25DFD7137CD5930830C946 /* Pods-ClearNoteSwiftUITests.modulemap */,
+				73D2EAC86AD2C47F842B7D0F42D1F84E /* Pods-ClearNoteSwiftUITests-acknowledgements.markdown */,
+				9599BF5E252522E53733FD54ACB3D100 /* Pods-ClearNoteSwiftUITests-acknowledgements.plist */,
+				A7221E16B370E99112F59C33E1E74969 /* Pods-ClearNoteSwiftUITests-dummy.m */,
+				D21FEF0DEC1D9D62B534DC2A9F9E8BC1 /* Pods-ClearNoteSwiftUITests-frameworks.sh */,
+				B160BD75911C27311D2D2467B3EDD8CA /* Pods-ClearNoteSwiftUITests-resources.sh */,
+				57DD1447DC6C9755285B950EB02DEAA8 /* Pods-ClearNoteSwiftUITests-umbrella.h */,
+				E7CD3720674871F6AF8B3BDC277B2D4D /* Pods-ClearNoteSwiftUITests.debug.xcconfig */,
+				45EB184BF47585559B9011F677150A96 /* Pods-ClearNoteSwiftUITests.release.xcconfig */,
+			);
+			name = "Pods-ClearNoteSwiftUITests";
+			path = "Target Support Files/Pods-ClearNoteSwiftUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C03A49AC357ABBCE7B554D447EEEFF67 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFC18ECEFBED22F32F869494EB81DA69 /* Pods-ClearNoteSwift */,
+				DCB781760977E4868A83ED267E1ADEDA /* Pods-ClearNoteSwiftTests */,
+				A2D596C775729B2774BEDBEE4F2DE81E /* Pods-ClearNoteSwiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DCB781760977E4868A83ED267E1ADEDA /* Pods-ClearNoteSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE7A07ADBCC4A0C0780E02E2B8256310 /* Info.plist */,
+				7C6F77F9668075F41E3AB7A604100FB8 /* Pods-ClearNoteSwiftTests.modulemap */,
+				EC53FD0ED933EC21925A48A5C107BE78 /* Pods-ClearNoteSwiftTests-acknowledgements.markdown */,
+				CEB231C59860611148C3D65AAEEA60AC /* Pods-ClearNoteSwiftTests-acknowledgements.plist */,
+				68C55381856DA9CEA30FEDDA677E0CAE /* Pods-ClearNoteSwiftTests-dummy.m */,
+				A8E3CB53C3996B32AE2181E9AAF4FB30 /* Pods-ClearNoteSwiftTests-frameworks.sh */,
+				9AC06E7B7EF4862D07DF3F3B5291DBA4 /* Pods-ClearNoteSwiftTests-resources.sh */,
+				9378BE950B25E49DB5EF6DFDEA1EC01C /* Pods-ClearNoteSwiftTests-umbrella.h */,
+				970B8D7DB907D5B4A8C5B83E8540750A /* Pods-ClearNoteSwiftTests.debug.xcconfig */,
+				4306AC87E9CA439F9BF087E8A121DE7D /* Pods-ClearNoteSwiftTests.release.xcconfig */,
+			);
+			name = "Pods-ClearNoteSwiftTests";
+			path = "Target Support Files/Pods-ClearNoteSwiftTests";
+			sourceTree = "<group>";
+		};
+		FFC18ECEFBED22F32F869494EB81DA69 /* Pods-ClearNoteSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D66DEC023C92B247FD16F23A768BA78A /* Info.plist */,
+				57CD2082A1F5572F2C09FC29D4689D78 /* Pods-ClearNoteSwift.modulemap */,
+				2DFDBD215191C1E59BF0C731CD435C00 /* Pods-ClearNoteSwift-acknowledgements.markdown */,
+				9927F23DA7801888E98DC700F52BEBF9 /* Pods-ClearNoteSwift-acknowledgements.plist */,
+				68EB6B3FC904130D12BC891D1D9DC910 /* Pods-ClearNoteSwift-dummy.m */,
+				33FC005A35D5CB583B1F85DFD0EB5610 /* Pods-ClearNoteSwift-frameworks.sh */,
+				79CEBCEE6FFA488F1667B6AF0797F373 /* Pods-ClearNoteSwift-resources.sh */,
+				9E6E735E4FAFFB0DB6574A5898A1B8DE /* Pods-ClearNoteSwift-umbrella.h */,
+				BC77864BFD739690CB34A7735E1AE9A3 /* Pods-ClearNoteSwift.debug.xcconfig */,
+				6785FD5AD461C50AEBC7E1DA818E844C /* Pods-ClearNoteSwift.release.xcconfig */,
+			);
+			name = "Pods-ClearNoteSwift";
+			path = "Target Support Files/Pods-ClearNoteSwift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D8FF479167C554366724E343819323E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF527C1B0BF33864E41252D9A7AE8B74 /* Pods-ClearNoteSwiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9EF8987D1BC42FCE8B835CCDEB6C66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2528A3E776E5DAFC7CE59286E58A13A /* Pods-ClearNoteSwiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D52BEE3F636121301412F86C9A0F2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395D258154C4D358C5B01906FBE76AA4 /* Pods-ClearNoteSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		467C7CE0931C2899E11B56B35D7C6A55 /* Pods-ClearNoteSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A343501A9F99720790092C9945BB296 /* Build configuration list for PBXNativeTarget "Pods-ClearNoteSwiftUITests" */;
+			buildPhases = (
+				3CE171D588098966217F1FC8FAD91346 /* Sources */,
+				BEF7F6092DB4896BF96D705F1B992F3B /* Frameworks */,
+				BB9EF8987D1BC42FCE8B835CCDEB6C66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ClearNoteSwiftUITests";
+			productName = "Pods-ClearNoteSwiftUITests";
+			productReference = 12C31289B9C01FC65706529F9D83FCEE /* Pods_ClearNoteSwiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		624E01D86A48025657BE72B97528BCBE /* Pods-ClearNoteSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC18F9A5617E8EEF69519F322600B384 /* Build configuration list for PBXNativeTarget "Pods-ClearNoteSwiftTests" */;
+			buildPhases = (
+				0B511F45E092736779A6DA1F5E0E5071 /* Sources */,
+				C1A9AC274C76A1C8779E8010E4FEA558 /* Frameworks */,
+				7D8FF479167C554366724E343819323E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ClearNoteSwiftTests";
+			productName = "Pods-ClearNoteSwiftTests";
+			productReference = 99CB436B228FFC3B1712BB250FEA0AEE /* Pods_ClearNoteSwiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA872181DD835522BC07636B9E4C7AD2 /* Pods-ClearNoteSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9276EE26E9FB2C0C2D1DA577654FF99 /* Build configuration list for PBXNativeTarget "Pods-ClearNoteSwift" */;
+			buildPhases = (
+				595AAF67405923205E0AF436F3E2A5F4 /* Sources */,
+				78CCBC6C4C9D0F279477E01386A52E1A /* Frameworks */,
+				E8D52BEE3F636121301412F86C9A0F2D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ClearNoteSwift";
+			productName = "Pods-ClearNoteSwift";
+			productReference = DBDDA93706322D40B61C619993D204CB /* Pods_ClearNoteSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6AB0D79413F02230D9889A10FCC40211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA872181DD835522BC07636B9E4C7AD2 /* Pods-ClearNoteSwift */,
+				624E01D86A48025657BE72B97528BCBE /* Pods-ClearNoteSwiftTests */,
+				467C7CE0931C2899E11B56B35D7C6A55 /* Pods-ClearNoteSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B511F45E092736779A6DA1F5E0E5071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC49957122C0E014186E7D32162083E /* Pods-ClearNoteSwiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE171D588098966217F1FC8FAD91346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A56BA37C79E52861BFF85050BE575B9 /* Pods-ClearNoteSwiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595AAF67405923205E0AF436F3E2A5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB94AE20E62E8BF8D03A9A056BC609B /* Pods-ClearNoteSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		069F8F6F9FE42F9EE736B5229CDFF6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EB184BF47585559B9011F677150A96 /* Pods-ClearNoteSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClearNoteSwiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClearNoteSwiftUITests/Pods-ClearNoteSwiftUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ClearNoteSwiftUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		156A7379142C913DE0A673E3A59AD0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7CD3720674871F6AF8B3BDC277B2D4D /* Pods-ClearNoteSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClearNoteSwiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClearNoteSwiftUITests/Pods-ClearNoteSwiftUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ClearNoteSwiftUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403EB0DA3988B508108443AF704D3FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC77864BFD739690CB34A7735E1AE9A3 /* Pods-ClearNoteSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClearNoteSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClearNoteSwift/Pods-ClearNoteSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ClearNoteSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54C07A89ED7438825DD360A952DEBB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6785FD5AD461C50AEBC7E1DA818E844C /* Pods-ClearNoteSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClearNoteSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClearNoteSwift/Pods-ClearNoteSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ClearNoteSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		67D90F67C3B8FC3A9C8968285A45B905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4306AC87E9CA439F9BF087E8A121DE7D /* Pods-ClearNoteSwiftTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClearNoteSwiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClearNoteSwiftTests/Pods-ClearNoteSwiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ClearNoteSwiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		993489A5CB8F2BE55ADD895306347374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970B8D7DB907D5B4A8C5B83E8540750A /* Pods-ClearNoteSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClearNoteSwiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClearNoteSwiftTests/Pods-ClearNoteSwiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ClearNoteSwiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A343501A9F99720790092C9945BB296 /* Build configuration list for PBXNativeTarget "Pods-ClearNoteSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156A7379142C913DE0A673E3A59AD0E1 /* Debug */,
+				069F8F6F9FE42F9EE736B5229CDFF6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC18F9A5617E8EEF69519F322600B384 /* Build configuration list for PBXNativeTarget "Pods-ClearNoteSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993489A5CB8F2BE55ADD895306347374 /* Debug */,
+				67D90F67C3B8FC3A9C8968285A45B905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9276EE26E9FB2C0C2D1DA577654FF99 /* Build configuration list for PBXNativeTarget "Pods-ClearNoteSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403EB0DA3988B508108443AF704D3FAB /* Debug */,
+				54C07A89ED7438825DD360A952DEBB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

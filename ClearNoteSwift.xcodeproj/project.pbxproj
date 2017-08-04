@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00A8E471306FBBE735585C9 /* Pods_ClearNoteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C791D8EE8DC40166C7567E15 /* Pods_ClearNoteSwift.framework */; };
+		D40F91871D3E2EC4002045BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91861D3E2EC4002045BA /* AppDelegate.swift */; };
+		D40F91891D3E2EC4002045BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91881D3E2EC4002045BA /* ViewController.swift */; };
+		D40F918C1D3E2EC4002045BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40F918A1D3E2EC4002045BA /* Main.storyboard */; };
+		D40F918E1D3E2EC4002045BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40F918D1D3E2EC4002045BA /* Assets.xcassets */; };
+		D40F91911D3E2EC4002045BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40F918F1D3E2EC4002045BA /* LaunchScreen.storyboard */; };
+		D40F919C1D3E2EC5002045BA /* ClearNoteSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F919B1D3E2EC5002045BA /* ClearNoteSwiftTests.swift */; };
+		D40F91A71D3E2EC5002045BA /* ClearNoteSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91A61D3E2EC5002045BA /* ClearNoteSwiftUITests.swift */; };
+		D40F91BE1D3E2FE4002045BA /* CNConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91B51D3E2FE4002045BA /* CNConstants.swift */; };
+		D40F91BF1D3E2FE4002045BA /* NSDate+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91B71D3E2FE4002045BA /* NSDate+Extra.swift */; };
+		D40F91C01D3E2FE4002045BA /* Futura Light_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D40F91B91D3E2FE4002045BA /* Futura Light_1.ttf */; };
+		D40F91C11D3E2FE4002045BA /* Futura-Std-Book_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D40F91BA1D3E2FE4002045BA /* Futura-Std-Book_1.ttf */; };
+		D40F91C21D3E2FE4002045BA /* Roboto-Regular_5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D40F91BB1D3E2FE4002045BA /* Roboto-Regular_5.ttf */; };
+		D40F91C31D3E2FE4002045BA /* CNHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91BD1D3E2FE4002045BA /* CNHelper.swift */; };
+		D40F91E11D3E3041002045BA /* CNAllNotsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91C71D3E3041002045BA /* CNAllNotsListCell.swift */; };
+		D40F91E21D3E3041002045BA /* CNAllNotsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91C81D3E3041002045BA /* CNAllNotsListViewController.swift */; };
+		D40F91E31D3E3041002045BA /* CNBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91CA1D3E3041002045BA /* CNBaseViewController.swift */; };
+		D40F91E41D3E3041002045BA /* CNChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91CC1D3E3041002045BA /* CNChangePasswordViewController.swift */; };
+		D40F91E51D3E3041002045BA /* CNCreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91CE1D3E3041002045BA /* CNCreateNoteViewController.swift */; };
+		D40F91E61D3E3041002045BA /* CNLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91D01D3E3041002045BA /* CNLoginViewController.swift */; };
+		D40F91E71D3E3041002045BA /* CNNoteDescriptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91D31D3E3041002045BA /* CNNoteDescriptionsCell.swift */; };
+		D40F91E81D3E3041002045BA /* CNNoteDescriptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91D41D3E3041002045BA /* CNNoteDescriptionsViewController.swift */; };
+		D40F91E91D3E3041002045BA /* CNRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91D61D3E3041002045BA /* CNRegistrationViewController.swift */; };
+		D40F91EB1D3E3041002045BA /* CNSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91DB1D3E3041002045BA /* CNSettingCell.swift */; };
+		D40F91EC1D3E3041002045BA /* CNSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91DC1D3E3041002045BA /* CNSettingViewController.swift */; };
+		D40F91ED1D3E3041002045BA /* CNTrashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91DF1D3E3041002045BA /* CNTrashCell.swift */; };
+		D40F91EE1D3E3041002045BA /* CNTrashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91E01D3E3041002045BA /* CNTrashViewController.swift */; };
+		D40F91F01D3E3112002045BA /* CNWellComeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F91EF1D3E3112002045BA /* CNWellComeViewController.swift */; };
+		D40F91F21D3E3945002045BA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40F91F11D3E3945002045BA /* CoreData.framework */; };
+		D40F92001D3E3B35002045BA /* ClearNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D40F91FE1D3E3B35002045BA /* ClearNote.xcdatamodeld */; };
+		D40F922F1D3E3CEE002045BA /* CNDataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F922E1D3E3CEE002045BA /* CNDataBaseHelper.swift */; };
+		D40F92321D3E40D7002045BA /* Users+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F92301D3E40D7002045BA /* Users+CoreDataProperties.swift */; };
+		D40F92331D3E40D7002045BA /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F92311D3E40D7002045BA /* Users.swift */; };
+		D4306A2E1D3F4A32003A44A9 /* MasterNote+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4306A2C1D3F4A32003A44A9 /* MasterNote+CoreDataProperties.swift */; };
+		D4306A2F1D3F4A32003A44A9 /* MasterNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4306A2D1D3F4A32003A44A9 /* MasterNote.swift */; };
+		D63758C5EF269BF6687D58B0 /* Pods_ClearNoteSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE53887919DB3ADB7783A80 /* Pods_ClearNoteSwiftTests.framework */; };
+		F51D0F254B3C2F3898DECF86 /* Pods_ClearNoteSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3C9E197AB787E5315B76C9 /* Pods_ClearNoteSwiftUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D40F91981D3E2EC5002045BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40F917B1D3E2EC4002045BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40F91821D3E2EC4002045BA;
+			remoteInfo = ClearNoteSwift;
+		};
+		D40F91A31D3E2EC5002045BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40F917B1D3E2EC4002045BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40F91821D3E2EC4002045BA;
+			remoteInfo = ClearNoteSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F3C9E197AB787E5315B76C9 /* Pods_ClearNoteSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearNoteSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A282C0F6AB8B48AEC7F963 /* Pods-ClearNoteSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearNoteSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClearNoteSwiftUITests/Pods-ClearNoteSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6EC2B12947111A7600EAA7E8 /* Pods-ClearNoteSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearNoteSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClearNoteSwift/Pods-ClearNoteSwift.release.xcconfig"; sourceTree = "<group>"; };
+		7E0ABEC0B70423946B4953BD /* Pods-ClearNoteSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearNoteSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClearNoteSwiftUITests/Pods-ClearNoteSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C791D8EE8DC40166C7567E15 /* Pods_ClearNoteSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearNoteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40F91831D3E2EC4002045BA /* ClearNoteSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearNoteSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40F91861D3E2EC4002045BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D40F91881D3E2EC4002045BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D40F918B1D3E2EC4002045BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D40F918D1D3E2EC4002045BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D40F91901D3E2EC4002045BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D40F91921D3E2EC4002045BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40F91971D3E2EC5002045BA /* ClearNoteSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearNoteSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40F919B1D3E2EC5002045BA /* ClearNoteSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearNoteSwiftTests.swift; sourceTree = "<group>"; };
+		D40F919D1D3E2EC5002045BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40F91A21D3E2EC5002045BA /* ClearNoteSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearNoteSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40F91A61D3E2EC5002045BA /* ClearNoteSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearNoteSwiftUITests.swift; sourceTree = "<group>"; };
+		D40F91A81D3E2EC5002045BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40F91B51D3E2FE4002045BA /* CNConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNConstants.swift; sourceTree = "<group>"; };
+		D40F91B71D3E2FE4002045BA /* NSDate+Extra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extra.swift"; sourceTree = "<group>"; };
+		D40F91B91D3E2FE4002045BA /* Futura Light_1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Light_1.ttf"; sourceTree = "<group>"; };
+		D40F91BA1D3E2FE4002045BA /* Futura-Std-Book_1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Std-Book_1.ttf"; sourceTree = "<group>"; };
+		D40F91BB1D3E2FE4002045BA /* Roboto-Regular_5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular_5.ttf"; sourceTree = "<group>"; };
+		D40F91BD1D3E2FE4002045BA /* CNHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNHelper.swift; sourceTree = "<group>"; };
+		D40F91C71D3E3041002045BA /* CNAllNotsListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNAllNotsListCell.swift; sourceTree = "<group>"; };
+		D40F91C81D3E3041002045BA /* CNAllNotsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNAllNotsListViewController.swift; sourceTree = "<group>"; };
+		D40F91CA1D3E3041002045BA /* CNBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNBaseViewController.swift; sourceTree = "<group>"; };
+		D40F91CC1D3E3041002045BA /* CNChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNChangePasswordViewController.swift; sourceTree = "<group>"; };
+		D40F91CE1D3E3041002045BA /* CNCreateNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNCreateNoteViewController.swift; sourceTree = "<group>"; };
+		D40F91D01D3E3041002045BA /* CNLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNLoginViewController.swift; sourceTree = "<group>"; };
+		D40F91D31D3E3041002045BA /* CNNoteDescriptionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNNoteDescriptionsCell.swift; sourceTree = "<group>"; };
+		D40F91D41D3E3041002045BA /* CNNoteDescriptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNNoteDescriptionsViewController.swift; sourceTree = "<group>"; };
+		D40F91D61D3E3041002045BA /* CNRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNRegistrationViewController.swift; sourceTree = "<group>"; };
+		D40F91DB1D3E3041002045BA /* CNSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNSettingCell.swift; sourceTree = "<group>"; };
+		D40F91DC1D3E3041002045BA /* CNSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNSettingViewController.swift; sourceTree = "<group>"; };
+		D40F91DF1D3E3041002045BA /* CNTrashCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTrashCell.swift; sourceTree = "<group>"; };
+		D40F91E01D3E3041002045BA /* CNTrashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTrashViewController.swift; sourceTree = "<group>"; };
+		D40F91EF1D3E3112002045BA /* CNWellComeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNWellComeViewController.swift; sourceTree = "<group>"; };
+		D40F91F11D3E3945002045BA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D40F91FF1D3E3B35002045BA /* ClearNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClearNote.xcdatamodel; sourceTree = "<group>"; };
+		D40F922E1D3E3CEE002045BA /* CNDataBaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNDataBaseHelper.swift; sourceTree = "<group>"; };
+		D40F92301D3E40D7002045BA /* Users+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D40F92311D3E40D7002045BA /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		D4306A2C1D3F4A32003A44A9 /* MasterNote+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MasterNote+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D4306A2D1D3F4A32003A44A9 /* MasterNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterNote.swift; sourceTree = "<group>"; };
+		DEE53887919DB3ADB7783A80 /* Pods_ClearNoteSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearNoteSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5AC0E92006F22E57298B03 /* Pods-ClearNoteSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearNoteSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClearNoteSwiftTests/Pods-ClearNoteSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5E916D5A2879D09EA19B258 /* Pods-ClearNoteSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearNoteSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClearNoteSwift/Pods-ClearNoteSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		F91A6A7AB04B67AB15215BA4 /* Pods-ClearNoteSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearNoteSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClearNoteSwiftTests/Pods-ClearNoteSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D40F91801D3E2EC4002045BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F91F21D3E3945002045BA /* CoreData.framework in Frameworks */,
+				B00A8E471306FBBE735585C9 /* Pods_ClearNoteSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F91941D3E2EC5002045BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63758C5EF269BF6687D58B0 /* Pods_ClearNoteSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F919F1D3E2EC5002045BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51D0F254B3C2F3898DECF86 /* Pods_ClearNoteSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB81453B200AA1194443D22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91F11D3E3945002045BA /* CoreData.framework */,
+				C791D8EE8DC40166C7567E15 /* Pods_ClearNoteSwift.framework */,
+				DEE53887919DB3ADB7783A80 /* Pods_ClearNoteSwiftTests.framework */,
+				4F3C9E197AB787E5315B76C9 /* Pods_ClearNoteSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		678B7357C70CCE5C29684C44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5E916D5A2879D09EA19B258 /* Pods-ClearNoteSwift.debug.xcconfig */,
+				6EC2B12947111A7600EAA7E8 /* Pods-ClearNoteSwift.release.xcconfig */,
+				EC5AC0E92006F22E57298B03 /* Pods-ClearNoteSwiftTests.debug.xcconfig */,
+				F91A6A7AB04B67AB15215BA4 /* Pods-ClearNoteSwiftTests.release.xcconfig */,
+				7E0ABEC0B70423946B4953BD /* Pods-ClearNoteSwiftUITests.debug.xcconfig */,
+				65A282C0F6AB8B48AEC7F963 /* Pods-ClearNoteSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D40F917A1D3E2EC4002045BA = {
+			isa = PBXGroup;
+			children = (
+				D40F91851D3E2EC4002045BA /* ClearNoteSwift */,
+				D40F919A1D3E2EC5002045BA /* ClearNoteSwiftTests */,
+				D40F91A51D3E2EC5002045BA /* ClearNoteSwiftUITests */,
+				D40F91841D3E2EC4002045BA /* Products */,
+				678B7357C70CCE5C29684C44 /* Pods */,
+				0DB81453B200AA1194443D22 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D40F91841D3E2EC4002045BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91831D3E2EC4002045BA /* ClearNoteSwift.app */,
+				D40F91971D3E2EC5002045BA /* ClearNoteSwiftTests.xctest */,
+				D40F91A21D3E2EC5002045BA /* ClearNoteSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D40F91851D3E2EC4002045BA /* ClearNoteSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91FD1D3E3B35002045BA /* Model */,
+				D40F91C41D3E3041002045BA /* ViewController */,
+				D40F91B41D3E2FE4002045BA /* CnUtilites */,
+				D40F91861D3E2EC4002045BA /* AppDelegate.swift */,
+				D40F91881D3E2EC4002045BA /* ViewController.swift */,
+				D40F91EF1D3E3112002045BA /* CNWellComeViewController.swift */,
+				D40F918A1D3E2EC4002045BA /* Main.storyboard */,
+				D40F918D1D3E2EC4002045BA /* Assets.xcassets */,
+				D40F918F1D3E2EC4002045BA /* LaunchScreen.storyboard */,
+				D40F91921D3E2EC4002045BA /* Info.plist */,
+			);
+			path = ClearNoteSwift;
+			sourceTree = "<group>";
+		};
+		D40F919A1D3E2EC5002045BA /* ClearNoteSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D40F919B1D3E2EC5002045BA /* ClearNoteSwiftTests.swift */,
+				D40F919D1D3E2EC5002045BA /* Info.plist */,
+			);
+			path = ClearNoteSwiftTests;
+			sourceTree = "<group>";
+		};
+		D40F91A51D3E2EC5002045BA /* ClearNoteSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91A61D3E2EC5002045BA /* ClearNoteSwiftUITests.swift */,
+				D40F91A81D3E2EC5002045BA /* Info.plist */,
+			);
+			path = ClearNoteSwiftUITests;
+			sourceTree = "<group>";
+		};
+		D40F91B41D3E2FE4002045BA /* CnUtilites */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91B51D3E2FE4002045BA /* CNConstants.swift */,
+				D40F91B61D3E2FE4002045BA /* CNDateCategory */,
+				D40F91B81D3E2FE4002045BA /* CNFonts */,
+				D40F91BC1D3E2FE4002045BA /* CNHelper */,
+			);
+			path = CnUtilites;
+			sourceTree = "<group>";
+		};
+		D40F91B61D3E2FE4002045BA /* CNDateCategory */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91B71D3E2FE4002045BA /* NSDate+Extra.swift */,
+			);
+			path = CNDateCategory;
+			sourceTree = "<group>";
+		};
+		D40F91B81D3E2FE4002045BA /* CNFonts */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91B91D3E2FE4002045BA /* Futura Light_1.ttf */,
+				D40F91BA1D3E2FE4002045BA /* Futura-Std-Book_1.ttf */,
+				D40F91BB1D3E2FE4002045BA /* Roboto-Regular_5.ttf */,
+			);
+			path = CNFonts;
+			sourceTree = "<group>";
+		};
+		D40F91BC1D3E2FE4002045BA /* CNHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91BD1D3E2FE4002045BA /* CNHelper.swift */,
+			);
+			path = CNHelper;
+			sourceTree = "<group>";
+		};
+		D40F91C41D3E3041002045BA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D40F922D1D3E3CB6002045BA /* CNDataBaseHelper */,
+				D40F91C51D3E3041002045BA /* CNAllNotsListViewController */,
+				D40F91C91D3E3041002045BA /* CNBaseViewController */,
+				D40F91CB1D3E3041002045BA /* CNChangePasswordViewController */,
+				D40F91CD1D3E3041002045BA /* CNCreteNoteViewController */,
+				D40F91CF1D3E3041002045BA /* CNLoginViewController */,
+				D40F91D11D3E3041002045BA /* CNNoteDescriptionsController */,
+				D40F91D51D3E3041002045BA /* CNRegistrationViewController */,
+				D40F91D91D3E3041002045BA /* CNSettingViewController */,
+				D40F91DD1D3E3041002045BA /* CNTrashViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D40F91C51D3E3041002045BA /* CNAllNotsListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91C61D3E3041002045BA /* CNAllNoteListCell */,
+				D40F91C81D3E3041002045BA /* CNAllNotsListViewController.swift */,
+			);
+			path = CNAllNotsListViewController;
+			sourceTree = "<group>";
+		};
+		D40F91C61D3E3041002045BA /* CNAllNoteListCell */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91C71D3E3041002045BA /* CNAllNotsListCell.swift */,
+			);
+			path = CNAllNoteListCell;
+			sourceTree = "<group>";
+		};
+		D40F91C91D3E3041002045BA /* CNBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91CA1D3E3041002045BA /* CNBaseViewController.swift */,
+			);
+			path = CNBaseViewController;
+			sourceTree = "<group>";
+		};
+		D40F91CB1D3E3041002045BA /* CNChangePasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91CC1D3E3041002045BA /* CNChangePasswordViewController.swift */,
+			);
+			path = CNChangePasswordViewController;
+			sourceTree = "<group>";
+		};
+		D40F91CD1D3E3041002045BA /* CNCreteNoteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91CE1D3E3041002045BA /* CNCreateNoteViewController.swift */,
+			);
+			path = CNCreteNoteViewController;
+			sourceTree = "<group>";
+		};
+		D40F91CF1D3E3041002045BA /* CNLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91D01D3E3041002045BA /* CNLoginViewController.swift */,
+			);
+			path = CNLoginViewController;
+			sourceTree = "<group>";
+		};
+		D40F91D11D3E3041002045BA /* CNNoteDescriptionsController */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91D21D3E3041002045BA /* CNDescriptionsCell */,
+			);
+			path = CNNoteDescriptionsController;
+			sourceTree = "<group>";
+		};
+		D40F91D21D3E3041002045BA /* CNDescriptionsCell */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91D31D3E3041002045BA /* CNNoteDescriptionsCell.swift */,
+				D40F91D41D3E3041002045BA /* CNNoteDescriptionsViewController.swift */,
+			);
+			path = CNDescriptionsCell;
+			sourceTree = "<group>";
+		};
+		D40F91D51D3E3041002045BA /* CNRegistrationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91D61D3E3041002045BA /* CNRegistrationViewController.swift */,
+			);
+			path = CNRegistrationViewController;
+			sourceTree = "<group>";
+		};
+		D40F91D91D3E3041002045BA /* CNSettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91DA1D3E3041002045BA /* CNSettingCell */,
+				D40F91DC1D3E3041002045BA /* CNSettingViewController.swift */,
+			);
+			path = CNSettingViewController;
+			sourceTree = "<group>";
+		};
+		D40F91DA1D3E3041002045BA /* CNSettingCell */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91DB1D3E3041002045BA /* CNSettingCell.swift */,
+			);
+			path = CNSettingCell;
+			sourceTree = "<group>";
+		};
+		D40F91DD1D3E3041002045BA /* CNTrashViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91DE1D3E3041002045BA /* CNTrashCell */,
+				D40F91E01D3E3041002045BA /* CNTrashViewController.swift */,
+			);
+			path = CNTrashViewController;
+			sourceTree = "<group>";
+		};
+		D40F91DE1D3E3041002045BA /* CNTrashCell */ = {
+			isa = PBXGroup;
+			children = (
+				D40F91DF1D3E3041002045BA /* CNTrashCell.swift */,
+			);
+			path = CNTrashCell;
+			sourceTree = "<group>";
+		};
+		D40F91FD1D3E3B35002045BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D40F92011D3E3B76002045BA /* CoreDatabaseClass */,
+				D40F91FE1D3E3B35002045BA /* ClearNote.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D40F92011D3E3B76002045BA /* CoreDatabaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				D4306A2C1D3F4A32003A44A9 /* MasterNote+CoreDataProperties.swift */,
+				D4306A2D1D3F4A32003A44A9 /* MasterNote.swift */,
+				D40F92301D3E40D7002045BA /* Users+CoreDataProperties.swift */,
+				D40F92311D3E40D7002045BA /* Users.swift */,
+			);
+			path = CoreDatabaseClass;
+			sourceTree = "<group>";
+		};
+		D40F922D1D3E3CB6002045BA /* CNDataBaseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D40F922E1D3E3CEE002045BA /* CNDataBaseHelper.swift */,
+			);
+			path = CNDataBaseHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D40F91821D3E2EC4002045BA /* ClearNoteSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40F91AB1D3E2EC5002045BA /* Build configuration list for PBXNativeTarget "ClearNoteSwift" */;
+			buildPhases = (
+				21D22B4C2F385C38CE746262 /* [CP] Check Pods Manifest.lock */,
+				D40F917F1D3E2EC4002045BA /* Sources */,
+				D40F91801D3E2EC4002045BA /* Frameworks */,
+				D40F91811D3E2EC4002045BA /* Resources */,
+				7EBF9249FCFA744C14BE2EA2 /* [CP] Embed Pods Frameworks */,
+				540A7F673309497F3CF2779E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClearNoteSwift;
+			productName = ClearNoteSwift;
+			productReference = D40F91831D3E2EC4002045BA /* ClearNoteSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D40F91961D3E2EC5002045BA /* ClearNoteSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40F91AE1D3E2EC5002045BA /* Build configuration list for PBXNativeTarget "ClearNoteSwiftTests" */;
+			buildPhases = (
+				9145011865F4624F2CA8C15B /* [CP] Check Pods Manifest.lock */,
+				D40F91931D3E2EC5002045BA /* Sources */,
+				D40F91941D3E2EC5002045BA /* Frameworks */,
+				D40F91951D3E2EC5002045BA /* Resources */,
+				986AFCB368245D5D8EEE4361 /* [CP] Embed Pods Frameworks */,
+				26D6AE0FBE309BBEABCD6747 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40F91991D3E2EC5002045BA /* PBXTargetDependency */,
+			);
+			name = ClearNoteSwiftTests;
+			productName = ClearNoteSwiftTests;
+			productReference = D40F91971D3E2EC5002045BA /* ClearNoteSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D40F91A11D3E2EC5002045BA /* ClearNoteSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40F91B11D3E2EC5002045BA /* Build configuration list for PBXNativeTarget "ClearNoteSwiftUITests" */;
+			buildPhases = (
+				600EAB8D6983F0D0BED3C86E /* [CP] Check Pods Manifest.lock */,
+				D40F919E1D3E2EC5002045BA /* Sources */,
+				D40F919F1D3E2EC5002045BA /* Frameworks */,
+				D40F91A01D3E2EC5002045BA /* Resources */,
+				DABFF3EC13B1CBBF81750AB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40F91A41D3E2EC5002045BA /* PBXTargetDependency */,
+			);
+			name = ClearNoteSwiftUITests;
+			productName = ClearNoteSwiftUITests;
+			productReference = D40F91A21D3E2EC5002045BA /* ClearNoteSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D40F917B1D3E2EC4002045BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jitendra;
+				TargetAttributes = {
+					D40F91821D3E2EC4002045BA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D40F91961D3E2EC5002045BA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D40F91821D3E2EC4002045BA;
+					};
+					D40F91A11D3E2EC5002045BA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D40F91821D3E2EC4002045BA;
+					};
+				};
+			};
+			buildConfigurationList = D40F917E1D3E2EC4002045BA /* Build configuration list for PBXProject "ClearNoteSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D40F917A1D3E2EC4002045BA;
+			productRefGroup = D40F91841D3E2EC4002045BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D40F91821D3E2EC4002045BA /* ClearNoteSwift */,
+				D40F91961D3E2EC5002045BA /* ClearNoteSwiftTests */,
+				D40F91A11D3E2EC5002045BA /* ClearNoteSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D40F91811D3E2EC4002045BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F91911D3E2EC4002045BA /* LaunchScreen.storyboard in Resources */,
+				D40F91C11D3E2FE4002045BA /* Futura-Std-Book_1.ttf in Resources */,
+				D40F91C21D3E2FE4002045BA /* Roboto-Regular_5.ttf in Resources */,
+				D40F91C01D3E2FE4002045BA /* Futura Light_1.ttf in Resources */,
+				D40F918E1D3E2EC4002045BA /* Assets.xcassets in Resources */,
+				D40F918C1D3E2EC4002045BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F91951D3E2EC5002045BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F91A01D3E2EC5002045BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21D22B4C2F385C38CE746262 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26D6AE0FBE309BBEABCD6747 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClearNoteSwiftTests/Pods-ClearNoteSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		540A7F673309497F3CF2779E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClearNoteSwift/Pods-ClearNoteSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600EAB8D6983F0D0BED3C86E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7EBF9249FCFA744C14BE2EA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClearNoteSwift/Pods-ClearNoteSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9145011865F4624F2CA8C15B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		986AFCB368245D5D8EEE4361 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClearNoteSwiftTests/Pods-ClearNoteSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DABFF3EC13B1CBBF81750AB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClearNoteSwiftUITests/Pods-ClearNoteSwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D40F917F1D3E2EC4002045BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F91E31D3E3041002045BA /* CNBaseViewController.swift in Sources */,
+				D40F91E11D3E3041002045BA /* CNAllNotsListCell.swift in Sources */,
+				D40F922F1D3E3CEE002045BA /* CNDataBaseHelper.swift in Sources */,
+				D40F91891D3E2EC4002045BA /* ViewController.swift in Sources */,
+				D40F91F01D3E3112002045BA /* CNWellComeViewController.swift in Sources */,
+				D40F91E61D3E3041002045BA /* CNLoginViewController.swift in Sources */,
+				D40F91E81D3E3041002045BA /* CNNoteDescriptionsViewController.swift in Sources */,
+				D40F91E21D3E3041002045BA /* CNAllNotsListViewController.swift in Sources */,
+				D40F91E41D3E3041002045BA /* CNChangePasswordViewController.swift in Sources */,
+				D40F91BE1D3E2FE4002045BA /* CNConstants.swift in Sources */,
+				D40F91EC1D3E3041002045BA /* CNSettingViewController.swift in Sources */,
+				D4306A2E1D3F4A32003A44A9 /* MasterNote+CoreDataProperties.swift in Sources */,
+				D40F91E91D3E3041002045BA /* CNRegistrationViewController.swift in Sources */,
+				D40F91E51D3E3041002045BA /* CNCreateNoteViewController.swift in Sources */,
+				D40F91C31D3E2FE4002045BA /* CNHelper.swift in Sources */,
+				D40F91E71D3E3041002045BA /* CNNoteDescriptionsCell.swift in Sources */,
+				D40F91EB1D3E3041002045BA /* CNSettingCell.swift in Sources */,
+				D40F92321D3E40D7002045BA /* Users+CoreDataProperties.swift in Sources */,
+				D40F92001D3E3B35002045BA /* ClearNote.xcdatamodeld in Sources */,
+				D4306A2F1D3F4A32003A44A9 /* MasterNote.swift in Sources */,
+				D40F91871D3E2EC4002045BA /* AppDelegate.swift in Sources */,
+				D40F91EE1D3E3041002045BA /* CNTrashViewController.swift in Sources */,
+				D40F91BF1D3E2FE4002045BA /* NSDate+Extra.swift in Sources */,
+				D40F91ED1D3E3041002045BA /* CNTrashCell.swift in Sources */,
+				D40F92331D3E40D7002045BA /* Users.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F91931D3E2EC5002045BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F919C1D3E2EC5002045BA /* ClearNoteSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F919E1D3E2EC5002045BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F91A71D3E2EC5002045BA /* ClearNoteSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D40F91991D3E2EC5002045BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40F91821D3E2EC4002045BA /* ClearNoteSwift */;
+			targetProxy = D40F91981D3E2EC5002045BA /* PBXContainerItemProxy */;
+		};
+		D40F91A41D3E2EC5002045BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40F91821D3E2EC4002045BA /* ClearNoteSwift */;
+			targetProxy = D40F91A31D3E2EC5002045BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D40F918A1D3E2EC4002045BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40F918B1D3E2EC4002045BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D40F918F1D3E2EC4002045BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40F91901D3E2EC4002045BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D40F91A91D3E2EC5002045BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D40F91AA1D3E2EC5002045BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D40F91AC1D3E2EC5002045BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E916D5A2879D09EA19B258 /* Pods-ClearNoteSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClearNoteSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.co.in.ClearNoteSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D40F91AD1D3E2EC5002045BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC2B12947111A7600EAA7E8 /* Pods-ClearNoteSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClearNoteSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.co.in.ClearNoteSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D40F91AF1D3E2EC5002045BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5AC0E92006F22E57298B03 /* Pods-ClearNoteSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClearNoteSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.co.in.ClearNoteSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClearNoteSwift.app/ClearNoteSwift";
+			};
+			name = Debug;
+		};
+		D40F91B01D3E2EC5002045BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91A6A7AB04B67AB15215BA4 /* Pods-ClearNoteSwiftTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClearNoteSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.co.in.ClearNoteSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClearNoteSwift.app/ClearNoteSwift";
+			};
+			name = Release;
+		};
+		D40F91B21D3E2EC5002045BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0ABEC0B70423946B4953BD /* Pods-ClearNoteSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ClearNoteSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.co.in.ClearNoteSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClearNoteSwift;
+			};
+			name = Debug;
+		};
+		D40F91B31D3E2EC5002045BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65A282C0F6AB8B48AEC7F963 /* Pods-ClearNoteSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ClearNoteSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.co.in.ClearNoteSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClearNoteSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D40F917E1D3E2EC4002045BA /* Build configuration list for PBXProject "ClearNoteSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40F91A91D3E2EC5002045BA /* Debug */,
+				D40F91AA1D3E2EC5002045BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40F91AB1D3E2EC5002045BA /* Build configuration list for PBXNativeTarget "ClearNoteSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40F91AC1D3E2EC5002045BA /* Debug */,
+				D40F91AD1D3E2EC5002045BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40F91AE1D3E2EC5002045BA /* Build configuration list for PBXNativeTarget "ClearNoteSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40F91AF1D3E2EC5002045BA /* Debug */,
+				D40F91B01D3E2EC5002045BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40F91B11D3E2EC5002045BA /* Build configuration list for PBXNativeTarget "ClearNoteSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40F91B21D3E2EC5002045BA /* Debug */,
+				D40F91B31D3E2EC5002045BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D40F91FE1D3E3B35002045BA /* ClearNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D40F91FF1D3E3B35002045BA /* ClearNote.xcdatamodel */,
+			);
+			currentVersion = D40F91FF1D3E3B35002045BA /* ClearNote.xcdatamodel */;
+			path = ClearNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D40F917B1D3E2EC4002045BA /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ClearNoteSwiftTests {
+  umbrella header "Pods-ClearNoteSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
